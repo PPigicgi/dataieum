@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,interactive-widget=resizes-content">
+  <meta name="theme-color" content="#0b1017">
+  <title data-i18n="데이터 주제 지도 · 데이터이음">데이터 주제 지도 · 데이터이음</title>
+  <link rel="stylesheet" href="/chat.css">
+  <link rel="stylesheet" href="/topic-graph.css">
+  <script src="/site-results.js" defer></script>
+  <script src="/search-progress.js" defer></script>
+  <script src="/topic-graph.js" defer></script>
+  <script src="/chat.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#question" data-i18n="질문 입력으로 이동">질문 입력으로 이동</a>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="데이터이음 홈" data-i18n-aria-label="데이터이음 홈"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6L19 9L10 19Z"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="9" r="2"/><circle cx="10" cy="19" r="2"/></svg><span data-i18n="데이터이음">데이터이음</span> <span data-i18n="주제 지도">주제 지도</span></a>
+    <nav aria-label="주 메뉴" data-i18n-aria-label="주 메뉴"><a href="/catalogue" data-i18n="카탈로그 ↗">카탈로그 ↗</a><a href="/ontology" data-i18n="상세 관계">상세 관계</a></nav>
+    <div class="header-actions"><button id="connection-status" class="model" type="button" aria-label="검색 연결 상태 다시 확인" data-i18n-aria-label="검색 연결 상태 다시 확인" title="연결 상태 다시 확인" data-i18n-title="연결 상태 다시 확인">연결 확인 중</button><button id="new-chat" class="quiet-button" type="button" data-i18n="＋ 새 대화">＋ 새 대화</button><button id="chat-toggle" class="quiet-button" type="button" aria-expanded="false" aria-controls="chat-panel"><span data-i18n="대화">대화</span> <span id="chat-history-count"></span></button></div>
+  </header>
+  <main>
+    <section id="graph-stage" class="graph-stage" aria-labelledby="graph-title">
+      <div class="graph-heading">
+        <div><p id="graph-total" class="eyebrow">등록 자료의 주제 지도</p><h1 id="graph-title">주제로 연결된 데이터</h1></div>
+        <div class="graph-toolbar">
+          <label class="sr-only" for="topic-filter" data-i18n="주제 분야">주제 분야</label><select id="topic-filter"><option value="" data-i18n="전체 분야">전체 분야</option></select>
+          <form id="topic-search-form" role="search"><label class="sr-only" for="topic-search" data-i18n="주제 이름 찾기">주제 이름 찾기</label><input id="topic-search" type="search" placeholder="주제 이름 찾기" data-i18n-placeholder="주제 이름 찾기" maxlength="100"><button type="submit" aria-label="주제 찾기" data-i18n-aria-label="주제 찾기">⌕</button></form>
+          <button id="graph-overview" class="quiet-button" type="button" data-i18n="전체 지도">전체 지도</button><button id="graph-result-view" class="quiet-button" type="button" hidden data-i18n="검색 결과 연결">검색 결과 연결</button>
+        </div>
+      </div>
+      <div class="topic-bands" role="group" aria-label="주제 분류 구간" data-i18n-aria-label="주제 분류 구간"><button type="button" data-topic-band="" aria-pressed="true" data-i18n="전체">전체</button><button type="button" data-topic-band="high" aria-pressed="false"><span data-i18n="고신뢰">고신뢰</span> <span id="band-high-count"></span></button><button type="button" data-topic-band="low" aria-pressed="false"><span data-i18n="저신뢰">저신뢰</span> <span id="band-low-count"></span></button><button type="button" data-topic-band="unclassified" aria-pressed="false"><span data-i18n="미분류">미분류</span> <span id="band-unclassified-count"></span></button></div>
+      <div class="graph-caption"><p id="graph-status" role="status" aria-live="polite">주제 지도를 불러오는 중…</p><button id="graph-retry" class="quiet-button" type="button" hidden data-i18n="다시 불러오기">다시 불러오기</button></div>
+      <div id="topic-graph" class="topic-graph" role="group" aria-label="주제와 자료 관계 그래프" data-i18n-aria-label="주제와 자료 관계 그래프"></div>
+      <div class="graph-legend" aria-label="그래프 범례" data-i18n-aria-label="그래프 범례"><span><i class="legend-topic"></i><span data-i18n="주제">주제</span></span><span><i class="legend-dataset"></i><span data-i18n="자료">자료</span></span><span class="legend-relation" data-i18n="함께 분류">함께 분류</span><span id="graph-visible"></span><span id="graph-classification"></span></div>
+      <div class="graph-zoom" role="group" aria-label="그래프 배율" data-i18n-aria-label="그래프 배율"><button id="graph-zoom-out" type="button" aria-label="그래프 축소" data-i18n-aria-label="그래프 축소">−</button><button id="graph-zoom-in" type="button" aria-label="그래프 확대" data-i18n-aria-label="그래프 확대">＋</button></div>
+      <aside id="topic-inspector" class="topic-inspector" aria-labelledby="topic-inspector-title" hidden><div class="panel-heading"><h2 id="topic-inspector-title">주제 정보</h2><button id="close-topic-inspector" type="button" class="quiet-button" aria-label="주제 정보 닫기" data-i18n-aria-label="주제 정보 닫기">✕</button></div><div id="topic-inspector-content" class="panel-scroll"></div></aside>
+    </section>
+    <section id="chat-panel" class="chat-panel" aria-labelledby="chat-panel-title" hidden>
+      <div class="panel-heading"><h2 id="chat-panel-title">대화와 검색 결과</h2><button id="close-chat-panel" type="button" class="quiet-button" aria-label="대화 패널 접기" data-i18n-aria-label="대화 패널 접기" data-i18n="접기 ↘">접기 ↘</button></div>
+      <div id="conversation" class="conversation">
+        <section id="welcome" class="welcome"><p class="eyebrow" data-i18n="질문에서 자료까지">질문에서 자료까지</p><h2 data-i18n="어떤 데이터가 필요하세요?">어떤 데이터가 필요하세요?</h2><p class="intro"><span data-i18n="아래에 필요한 데이터와 조건을 알려 주세요.">아래에 필요한 데이터와 조건을 알려 주세요.</span><br><span data-i18n="찾아볼 사이트와 제공 근거를 여기에 모아드려요.">찾아볼 사이트와 제공 근거를 여기에 모아드려요.</span></p></section>
+        <p id="search-progress-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div id="messages" role="log" aria-label="데이터 채팅 대화" data-i18n-aria-label="데이터 채팅 대화" aria-live="polite" aria-relevant="additions"></div>
+      </div>
+    </section>
+    <footer class="composer-area">
+      <p id="status" class="status" role="status" aria-live="polite">국가를 적으면 그 범위로, 생략하면 여러 나라 자료를 찾아요.</p>
+      <form id="chat-form" class="composer">
+        <label class="sr-only" for="question" data-i18n="찾고 싶은 데이터 질문">찾고 싶은 데이터 질문</label>
+        <textarea id="question" rows="1" maxlength="600" placeholder="어떤 데이터가 필요한가요?  예: 한국 인구 통계" data-i18n-placeholder="어떤 데이터가 필요한가요?  예: 한국 인구 통계" aria-describedby="input-help" required></textarea>
+        <div class="composer-actions"><span id="input-help"><span data-i18n="조건을 이어서 말해 보세요">조건을 이어서 말해 보세요</span> <span class="keyboard-help" data-i18n="· Enter로 보내기">· Enter로 보내기</span></span><button id="send" type="submit" aria-label="질문 보내기" data-i18n-aria-label="질문 보내기"><span data-i18n="보내기">보내기</span> <span aria-hidden="true">↑</span></button><button id="stop" type="button" hidden>■ 중지</button></div>
+      </form>
+      <p class="footnote" data-i18n="확인된 제공 근거로 안내해요. 실제 이용조건은 공식 자료에서 확인하세요.">확인된 제공 근거로 안내해요. 실제 이용조건은 공식 자료에서 확인하세요.</p>
+    </footer>
+  </main>
+</body>
+</html>

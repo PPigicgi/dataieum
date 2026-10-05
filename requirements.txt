@@ -1,0 +1,8 @@
+fastapi==0.141.1
+uvicorn==0.53.0
+requests==2.34.2
+tiktoken==0.14.0
+xlrd==2.0.2
+psycopg[binary]==3.3.6
+opentelemetry-sdk==1.45.0
+httpx==0.28.1

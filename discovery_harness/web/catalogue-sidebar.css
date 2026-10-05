@@ -1,0 +1,26 @@
+/* The whole row represents 100% of catalogue records. Keep labels above the fill. */
+.sidebar #side-concepts .topic-nav {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+.sidebar #side-concepts .topic-nav::before,
+.sidebar #side-concepts .topic-nav:is(:hover,:focus-visible)::before {
+  inset: 0 auto 0 0;
+  width: var(--topic-share, 0%);
+  height: 100%;
+  transform: none;
+  border-radius: 3px;
+  background: #a6a6af40;
+  transition: background-color .18s ease;
+}
+.sidebar #side-concepts .topic-nav:is(:hover,:focus-visible)::before {
+  background: #b8b8bf59;
+}
+.sidebar #side-concepts .topic-nav:focus-visible {
+  outline: 1px solid #d0c9ff;
+  outline-offset: -1px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sidebar #side-concepts .topic-nav::before { transition: none; }
+}

@@ -1,0 +1,30 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Credentials and private runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+secrets/
+cooperation-config/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+data/
+backups/
+*.faiss
+*.npy

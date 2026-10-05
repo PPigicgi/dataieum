@@ -1,0 +1,1207 @@
+{
+  "captured_at_utc": "2026-10-05T18:33:07.963733+00:00",
+  "services": {
+    "atlas": {
+      "image": "sha256:d350da2d85e80aeb91fdfed47e13524438dbd359ef6fc4f8cbb76795a7340710",
+      "files": 148,
+      "archive_sha256": "4df517bc2c33d5040a20be87db96c422fd68e71cba03c9f91330d9ba288e3dfb"
+    },
+    "luna": {
+      "image": "sha256:47a3559e574ca967ac5d8f23cc373f2302d87e66f5fde5aaefe9442c205da826",
+      "files": 147,
+      "archive_sha256": "6cc67e671b600c45e3e283d416b7e578d7ccafd8e3c44f13b183f71d815649b3"
+    },
+    "vector": {
+      "image": "sha256:428822e3807e89c1ba249870c18a57c67d1cffdf87de4432963e8b6025be8578",
+      "files": 147,
+      "archive_sha256": "cf9341745dbfe4d675e235f2ee677e4fc95abf60644756770c73c1c07ca65959"
+    }
+  },
+  "scope": "Operational source snapshot; public-export changes are listed per file. Extraction date is not the original development date.",
+  "files": {
+    "catalog.py": {
+      "service": "atlas",
+      "original_sha256": "f709f9d5604e6b1edc587e517c29e642824b447d7ea76994dc2e50a4d271c0dc",
+      "public_sha256": "f709f9d5604e6b1edc587e517c29e642824b447d7ea76994dc2e50a4d271c0dc",
+      "original_bytes": 51006,
+      "public_bytes": 51006,
+      "public_export_change": null
+    },
+    "classification_batch.py": {
+      "service": "atlas",
+      "original_sha256": "0f02e4d74c849c583f845172c93f21c0743f02a3bcba8a6b6b927fce36574947",
+      "public_sha256": "0f02e4d74c849c583f845172c93f21c0743f02a3bcba8a6b6b927fce36574947",
+      "original_bytes": 15045,
+      "public_bytes": 15045,
+      "public_export_change": null
+    },
+    "collection_audit.py": {
+      "service": "atlas",
+      "original_sha256": "18672a117ed0284a246e863df9552313c829b5d51c0a74594def081be2e31273",
+      "public_sha256": "18672a117ed0284a246e863df9552313c829b5d51c0a74594def081be2e31273",
+      "original_bytes": 156815,
+      "public_bytes": 156815,
+      "public_export_change": null
+    },
+    "collectors.py": {
+      "service": "atlas",
+      "original_sha256": "7f5ce3a9e9c4d03e6430dbee0758e11997ab705ff0ff2eb27c3e439f592c4d40",
+      "public_sha256": "7f5ce3a9e9c4d03e6430dbee0758e11997ab705ff0ff2eb27c3e439f592c4d40",
+      "original_bytes": 18996,
+      "public_bytes": 18996,
+      "public_export_change": null
+    },
+    "confidence_graph.py": {
+      "service": "atlas",
+      "original_sha256": "ab7b792945bc0f49fb5898a7b0b03d56f66cb52f60988c8e570f4e18aab98831",
+      "public_sha256": "ab7b792945bc0f49fb5898a7b0b03d56f66cb52f60988c8e570f4e18aab98831",
+      "original_bytes": 12235,
+      "public_bytes": 12235,
+      "public_export_change": null
+    },
+    "discovery_harness/__init__.py": {
+      "service": "atlas",
+      "original_sha256": "21f59dbc33ffdde9efa96882c4dc89d701a6354844755cc4503b2060a3c8fdd4",
+      "public_sha256": "21f59dbc33ffdde9efa96882c4dc89d701a6354844755cc4503b2060a3c8fdd4",
+      "original_bytes": 1095,
+      "public_bytes": 1095,
+      "public_export_change": null
+    },
+    "discovery_harness/asgi.py": {
+      "service": "atlas",
+      "original_sha256": "2a42a63c587ff9597b4138fb5f5cbc17827a725fa524f04e09bf3603d9339448",
+      "public_sha256": "2a42a63c587ff9597b4138fb5f5cbc17827a725fa524f04e09bf3603d9339448",
+      "original_bytes": 6090,
+      "public_bytes": 6090,
+      "public_export_change": null
+    },
+    "discovery_harness/asset_ontology.py": {
+      "service": "atlas",
+      "original_sha256": "5853084394e30724d1b80e4e385e6a3b5e603c1432da4d6a5c5677a3aa47a9e0",
+      "public_sha256": "5853084394e30724d1b80e4e385e6a3b5e603c1432da4d6a5c5677a3aa47a9e0",
+      "original_bytes": 25176,
+      "public_bytes": 25176,
+      "public_export_change": null
+    },
+    "discovery_harness/auth_recovery.py": {
+      "service": "atlas",
+      "original_sha256": "004c36505f27ee9719826f0746496a629ea227ab53c1b1b62f3a4362296d011a",
+      "public_sha256": "004c36505f27ee9719826f0746496a629ea227ab53c1b1b62f3a4362296d011a",
+      "original_bytes": 20014,
+      "public_bytes": 20014,
+      "public_export_change": null
+    },
+    "discovery_harness/branding.py": {
+      "service": "atlas",
+      "original_sha256": "967efc0930b88b5b91aeb605562d51139f0be5ff3a072e70aacde3719d10ce49",
+      "public_sha256": "967efc0930b88b5b91aeb605562d51139f0be5ff3a072e70aacde3719d10ce49",
+      "original_bytes": 1741,
+      "public_bytes": 1741,
+      "public_export_change": null
+    },
+    "discovery_harness/brief_store.py": {
+      "service": "atlas",
+      "original_sha256": "c41d36ff3667f287d85e619114eed1cb5fbb4041fdd879bd805e26d98358a40c",
+      "public_sha256": "c41d36ff3667f287d85e619114eed1cb5fbb4041fdd879bd805e26d98358a40c",
+      "original_bytes": 8603,
+      "public_bytes": 8603,
+      "public_export_change": null
+    },
+    "discovery_harness/capacity.py": {
+      "service": "atlas",
+      "original_sha256": "88ad4e3000672cd6e05ccf651062c6642f9af2985252b4bc223d60b3f6ebc4a3",
+      "public_sha256": "88ad4e3000672cd6e05ccf651062c6642f9af2985252b4bc223d60b3f6ebc4a3",
+      "original_bytes": 13277,
+      "public_bytes": 13277,
+      "public_export_change": null
+    },
+    "discovery_harness/catalog_discovery.py": {
+      "service": "atlas",
+      "original_sha256": "f4e3b642edf47571bf478707bd02d90c6860483720a14a8a4e0edb0e2c13e348",
+      "public_sha256": "f4e3b642edf47571bf478707bd02d90c6860483720a14a8a4e0edb0e2c13e348",
+      "original_bytes": 2833,
+      "public_bytes": 2833,
+      "public_export_change": null
+    },
+    "discovery_harness/catalog_pages.py": {
+      "service": "atlas",
+      "original_sha256": "164bc8a3712e9844bdfa37e87dd4e86caa17cfb6dace3ea3e4817f1e91ed519e",
+      "public_sha256": "164bc8a3712e9844bdfa37e87dd4e86caa17cfb6dace3ea3e4817f1e91ed519e",
+      "original_bytes": 4716,
+      "public_bytes": 4716,
+      "public_export_change": null
+    },
+    "discovery_harness/catalog_store.py": {
+      "service": "atlas",
+      "original_sha256": "5d4a28f7a53bad2e47d05f17f17bbccc4595c76818f61fbb4b7ea44fb5f056f1",
+      "public_sha256": "5d4a28f7a53bad2e47d05f17f17bbccc4595c76818f61fbb4b7ea44fb5f056f1",
+      "original_bytes": 25930,
+      "public_bytes": 25930,
+      "public_export_change": null
+    },
+    "discovery_harness/catalog_worker.py": {
+      "service": "atlas",
+      "original_sha256": "8ee106f57e6cad91b436102a04c24b5fc18c76f2793a280a1b9a119610e30089",
+      "public_sha256": "8ee106f57e6cad91b436102a04c24b5fc18c76f2793a280a1b9a119610e30089",
+      "original_bytes": 23983,
+      "public_bytes": 23983,
+      "public_export_change": null
+    },
+    "discovery_harness/chat.py": {
+      "service": "atlas",
+      "original_sha256": "428b45857af6c8e19298e5510a5c0409a49e73ff7bb0f228b2f1ccb90e5edc0b",
+      "public_sha256": "428b45857af6c8e19298e5510a5c0409a49e73ff7bb0f228b2f1ccb90e5edc0b",
+      "original_bytes": 18019,
+      "public_bytes": 18019,
+      "public_export_change": null
+    },
+    "discovery_harness/chat_jobs.py": {
+      "service": "atlas",
+      "original_sha256": "266efdb4803b0205c97f421e30c4a604a0a0f8d4594bda06a66e7eb0e7510606",
+      "public_sha256": "266efdb4803b0205c97f421e30c4a604a0a0f8d4594bda06a66e7eb0e7510606",
+      "original_bytes": 37312,
+      "public_bytes": 37312,
+      "public_export_change": null
+    },
+    "discovery_harness/codex_login_readiness.py": {
+      "service": "atlas",
+      "original_sha256": "9bcee05639d805ebb4dbebfa2544a8dd3492a437c4ad558810a6e19f12d0cf1d",
+      "public_sha256": "9bcee05639d805ebb4dbebfa2544a8dd3492a437c4ad558810a6e19f12d0cf1d",
+      "original_bytes": 2067,
+      "public_bytes": 2067,
+      "public_export_change": null
+    },
+    "discovery_harness/codex_luna.py": {
+      "service": "atlas",
+      "original_sha256": "4b8d4e37d2df68bd67b6570a015e956e97a4b7e102bfbd25e86da9cf23b21d6d",
+      "public_sha256": "4b8d4e37d2df68bd67b6570a015e956e97a4b7e102bfbd25e86da9cf23b21d6d",
+      "original_bytes": 13454,
+      "public_bytes": 13454,
+      "public_export_change": null
+    },
+    "discovery_harness/compact_intent.py": {
+      "service": "atlas",
+      "original_sha256": "037caaff0d9bbc7af3886ebc81ba24210cb9664238407a59cd022d352ccbd03e",
+      "public_sha256": "037caaff0d9bbc7af3886ebc81ba24210cb9664238407a59cd022d352ccbd03e",
+      "original_bytes": 5704,
+      "public_bytes": 5704,
+      "public_export_change": null
+    },
+    "discovery_harness/concept_hierarchy.json": {
+      "service": "atlas",
+      "original_sha256": "690c812bb3d5be2efa42a564f919df3cfbac0b37c28b9adba0b9a5c60c194572",
+      "public_sha256": "690c812bb3d5be2efa42a564f919df3cfbac0b37c28b9adba0b9a5c60c194572",
+      "original_bytes": 93427,
+      "public_bytes": 93427,
+      "public_export_change": null
+    },
+    "discovery_harness/concept_hierarchy.py": {
+      "service": "atlas",
+      "original_sha256": "eefe3d88e8aa4d27f6aaacc5afb5e7e7cdb70dc1e233c26a4c13535aec87964e",
+      "public_sha256": "eefe3d88e8aa4d27f6aaacc5afb5e7e7cdb70dc1e233c26a4c13535aec87964e",
+      "original_bytes": 2558,
+      "public_bytes": 2558,
+      "public_export_change": null
+    },
+    "discovery_harness/cooperation.py": {
+      "service": "atlas",
+      "original_sha256": "b7e53114339dbf1eef2dd492aca7d9161cc5f0729fd45749203f8533497f63cf",
+      "public_sha256": "b7e53114339dbf1eef2dd492aca7d9161cc5f0729fd45749203f8533497f63cf",
+      "original_bytes": 8926,
+      "public_bytes": 8926,
+      "public_export_change": null
+    },
+    "discovery_harness/cooperation_api.py": {
+      "service": "atlas",
+      "original_sha256": "9fc3a9cde846cfa650861b23ed489b7ac8d484652263fc304f4e0c8e91514a43",
+      "public_sha256": "9fc3a9cde846cfa650861b23ed489b7ac8d484652263fc304f4e0c8e91514a43",
+      "original_bytes": 22110,
+      "public_bytes": 22110,
+      "public_export_change": null
+    },
+    "discovery_harness/cooperation_store.py": {
+      "service": "atlas",
+      "original_sha256": "0a224b80ee6b8bd37872d494ba635fe30e0e6796ced0afdfed7ac0049d245173",
+      "public_sha256": "0a224b80ee6b8bd37872d494ba635fe30e0e6796ced0afdfed7ac0049d245173",
+      "original_bytes": 27969,
+      "public_bytes": 27969,
+      "public_export_change": null
+    },
+    "discovery_harness/coverage.py": {
+      "service": "atlas",
+      "original_sha256": "6e55334d9c0de0da6f08dd5af2d9f7bda4be31050f15401a397b04cfc63305e1",
+      "public_sha256": "6e55334d9c0de0da6f08dd5af2d9f7bda4be31050f15401a397b04cfc63305e1",
+      "original_bytes": 15593,
+      "public_bytes": 15593,
+      "public_export_change": null
+    },
+    "discovery_harness/coverage_index.py": {
+      "service": "atlas",
+      "original_sha256": "bf3aa11e7827844ad7ca1ace3c5eb4ba0d5f32da22cbab81834ec4d91ab2980e",
+      "public_sha256": "bf3aa11e7827844ad7ca1ace3c5eb4ba0d5f32da22cbab81834ec4d91ab2980e",
+      "original_bytes": 7048,
+      "public_bytes": 7048,
+      "public_export_change": null
+    },
+    "discovery_harness/dataieum.py": {
+      "service": "atlas",
+      "original_sha256": "89b4427858e38c6071fbcd95e52352ddc3c880a72142bca2dfe20af1e72b0442",
+      "public_sha256": "89b4427858e38c6071fbcd95e52352ddc3c880a72142bca2dfe20af1e72b0442",
+      "original_bytes": 41468,
+      "public_bytes": 41468,
+      "public_export_change": null
+    },
+    "discovery_harness/dataset_compare.py": {
+      "service": "atlas",
+      "original_sha256": "dcdd26cfbdc2edd6569418685edfba124674e95e02d27d44da74a4a87f2d9bf5",
+      "public_sha256": "dcdd26cfbdc2edd6569418685edfba124674e95e02d27d44da74a4a87f2d9bf5",
+      "original_bytes": 4348,
+      "public_bytes": 4348,
+      "public_export_change": null
+    },
+    "discovery_harness/dataset_intro.py": {
+      "service": "atlas",
+      "original_sha256": "a6bd6152d1448587a7283c17bfa664d31e3f0da4167e86e9fe197ebf51ac079a",
+      "public_sha256": "a6bd6152d1448587a7283c17bfa664d31e3f0da4167e86e9fe197ebf51ac079a",
+      "original_bytes": 11716,
+      "public_bytes": 11716,
+      "public_export_change": null
+    },
+    "discovery_harness/dataset_series.py": {
+      "service": "vector",
+      "original_sha256": "e2148ab246bc6dca105f51f4548828dac121c54b5dc0610bfb140b9560865628",
+      "public_sha256": "e2148ab246bc6dca105f51f4548828dac121c54b5dc0610bfb140b9560865628",
+      "original_bytes": 6023,
+      "public_bytes": 6023,
+      "public_export_change": null
+    },
+    "discovery_harness/dependency_stage.py": {
+      "service": "luna",
+      "original_sha256": "4256674fe90fba2e0f529c9f0c55fb87400ef1d390f1d4c5b8810ed26367ed87",
+      "public_sha256": "4256674fe90fba2e0f529c9f0c55fb87400ef1d390f1d4c5b8810ed26367ed87",
+      "original_bytes": 15215,
+      "public_bytes": 15215,
+      "public_export_change": null
+    },
+    "discovery_harness/display_text.py": {
+      "service": "atlas",
+      "original_sha256": "8ef83c9d785285d0f0d0cec5018d28af86394a234a04d9a52668726864a2ee43",
+      "public_sha256": "8ef83c9d785285d0f0d0cec5018d28af86394a234a04d9a52668726864a2ee43",
+      "original_bytes": 1480,
+      "public_bytes": 1480,
+      "public_export_change": null
+    },
+    "discovery_harness/errors.py": {
+      "service": "atlas",
+      "original_sha256": "8e86c90b2e20faafd7940456427a214b01f0c669fbeb3cdd140957de4b37a05a",
+      "public_sha256": "8e86c90b2e20faafd7940456427a214b01f0c669fbeb3cdd140957de4b37a05a",
+      "original_bytes": 1188,
+      "public_bytes": 1188,
+      "public_export_change": null
+    },
+    "discovery_harness/exploration_contract.py": {
+      "service": "atlas",
+      "original_sha256": "8b90d6712f7e805f77369315a52c8bc679235bd7ab592457a7305974add9cf6d",
+      "public_sha256": "8b90d6712f7e805f77369315a52c8bc679235bd7ab592457a7305974add9cf6d",
+      "original_bytes": 3142,
+      "public_bytes": 3142,
+      "public_export_change": null
+    },
+    "discovery_harness/frontend_assets.py": {
+      "service": "atlas",
+      "original_sha256": "17422c3f6756d7af1f9e625c6fc22be152c76cd79e10bda1ba22cbef35dd93e3",
+      "public_sha256": "17422c3f6756d7af1f9e625c6fc22be152c76cd79e10bda1ba22cbef35dd93e3",
+      "original_bytes": 1628,
+      "public_bytes": 1628,
+      "public_export_change": null
+    },
+    "discovery_harness/google_mail.py": {
+      "service": "atlas",
+      "original_sha256": "b7c04da0343aaf9957c8b364e5b326f6f56fe9ad6b08affa5d9abb9cc9722323",
+      "public_sha256": "b7c04da0343aaf9957c8b364e5b326f6f56fe9ad6b08affa5d9abb9cc9722323",
+      "original_bytes": 5632,
+      "public_bytes": 5632,
+      "public_export_change": null
+    },
+    "discovery_harness/google_mail_store.py": {
+      "service": "atlas",
+      "original_sha256": "be6a27a2da4b01897e793d693a2962f3e8a3e6a24b9311df4631ff6b164be815",
+      "public_sha256": "be6a27a2da4b01897e793d693a2962f3e8a3e6a24b9311df4631ff6b164be815",
+      "original_bytes": 7992,
+      "public_bytes": 7992,
+      "public_export_change": null
+    },
+    "discovery_harness/graph.py": {
+      "service": "atlas",
+      "original_sha256": "5a9a9cb59f8f3ca0d826f6a9d67e183cee1d3c47a7846476b1bb045b043554af",
+      "public_sha256": "5a9a9cb59f8f3ca0d826f6a9d67e183cee1d3c47a7846476b1bb045b043554af",
+      "original_bytes": 8177,
+      "public_bytes": 8177,
+      "public_export_change": null
+    },
+    "discovery_harness/host_telemetry.py": {
+      "service": "atlas",
+      "original_sha256": "dbf7b83c6b20125a0e543f3c8aedf4cb712428174648e06a50f08113b74cb26a",
+      "public_sha256": "dbf7b83c6b20125a0e543f3c8aedf4cb712428174648e06a50f08113b74cb26a",
+      "original_bytes": 11013,
+      "public_bytes": 11013,
+      "public_export_change": null
+    },
+    "discovery_harness/http_api.py": {
+      "service": "atlas",
+      "original_sha256": "9a2886d7419864426b89cc15a8e04c313e8ec14e532731900acbbafb76e91453",
+      "public_sha256": "9a2886d7419864426b89cc15a8e04c313e8ec14e532731900acbbafb76e91453",
+      "original_bytes": 8875,
+      "public_bytes": 8875,
+      "public_export_change": null
+    },
+    "discovery_harness/hybrid_search.py": {
+      "service": "vector",
+      "original_sha256": "fe5fdd9f082235a295a1042381007bf2c6d91946758d41c6b1bee40fcedc978a",
+      "public_sha256": "fe5fdd9f082235a295a1042381007bf2c6d91946758d41c6b1bee40fcedc978a",
+      "original_bytes": 2372,
+      "public_bytes": 2372,
+      "public_export_change": null
+    },
+    "discovery_harness/intent_instructions.txt": {
+      "service": "atlas",
+      "original_sha256": "4e220d47bdd1a712bc462638beba33b29da9436aaa25ff7f2ea3e93e5232d9b2",
+      "public_sha256": "4e220d47bdd1a712bc462638beba33b29da9436aaa25ff7f2ea3e93e5232d9b2",
+      "original_bytes": 16455,
+      "public_bytes": 16455,
+      "public_export_change": null
+    },
+    "discovery_harness/intro_store.py": {
+      "service": "atlas",
+      "original_sha256": "06225d7bd989486f9360e394b80db66cb2da9ac569c8230ff1e8ba63f94da12b",
+      "public_sha256": "06225d7bd989486f9360e394b80db66cb2da9ac569c8230ff1e8ba63f94da12b",
+      "original_bytes": 14724,
+      "public_bytes": 14724,
+      "public_export_change": null
+    },
+    "discovery_harness/keyword_index.py": {
+      "service": "atlas",
+      "original_sha256": "47c07acc27f4c47d84462a7bace9d4a4263c256cb1d724d5634c5d58b3a4610c",
+      "public_sha256": "47c07acc27f4c47d84462a7bace9d4a4263c256cb1d724d5634c5d58b3a4610c",
+      "original_bytes": 8610,
+      "public_bytes": 8610,
+      "public_export_change": null
+    },
+    "discovery_harness/luna_appserver.py": {
+      "service": "luna",
+      "original_sha256": "d23cb9335bc5a7025831448ac6b0fad32c095e35a0c9796c78f789efc139a1ee",
+      "public_sha256": "d23cb9335bc5a7025831448ac6b0fad32c095e35a0c9796c78f789efc139a1ee",
+      "original_bytes": 24897,
+      "public_bytes": 24897,
+      "public_export_change": null
+    },
+    "discovery_harness/luna_pool.py": {
+      "service": "atlas",
+      "original_sha256": "dfe0b760719bae619ab8f23b4ccc323d8274b8d0e37503d7e623e7c17e537bcc",
+      "public_sha256": "dfe0b760719bae619ab8f23b4ccc323d8274b8d0e37503d7e623e7c17e537bcc",
+      "original_bytes": 5722,
+      "public_bytes": 5722,
+      "public_export_change": null
+    },
+    "discovery_harness/mail_delivery.py": {
+      "service": "atlas",
+      "original_sha256": "5a778ec5a02ceb7405a5730b6904f2de529961079c943a1fd34d13545bd4788d",
+      "public_sha256": "5a778ec5a02ceb7405a5730b6904f2de529961079c943a1fd34d13545bd4788d",
+      "original_bytes": 5444,
+      "public_bytes": 5444,
+      "public_export_change": null
+    },
+    "discovery_harness/metadata_input.py": {
+      "service": "atlas",
+      "original_sha256": "e365c0fa80fdf27006e5e24a351cf531094907d1fe6efd0697dadf07deae2d68",
+      "public_sha256": "e365c0fa80fdf27006e5e24a351cf531094907d1fe6efd0697dadf07deae2d68",
+      "original_bytes": 4094,
+      "public_bytes": 4094,
+      "public_export_change": null
+    },
+    "discovery_harness/native_catalog.py": {
+      "service": "atlas",
+      "original_sha256": "c8cede47e893af5cf1839cd85c375ba51b5b584df5cac54124fce2dcdbed07fe",
+      "public_sha256": "c8cede47e893af5cf1839cd85c375ba51b5b584df5cac54124fce2dcdbed07fe",
+      "original_bytes": 21446,
+      "public_bytes": 21446,
+      "public_export_change": null
+    },
+    "discovery_harness/observability.py": {
+      "service": "atlas",
+      "original_sha256": "b602ebd001de7810114787722b562f603c0efb0d194e428241bbb467a15212e3",
+      "public_sha256": "b602ebd001de7810114787722b562f603c0efb0d194e428241bbb467a15212e3",
+      "original_bytes": 2851,
+      "public_bytes": 2851,
+      "public_export_change": null
+    },
+    "discovery_harness/ontology.py": {
+      "service": "atlas",
+      "original_sha256": "4725d9fc1683b160a135ec961f41497c12ec551de9da4cefe71bd11575a73a2f",
+      "public_sha256": "4725d9fc1683b160a135ec961f41497c12ec551de9da4cefe71bd11575a73a2f",
+      "original_bytes": 30354,
+      "public_bytes": 30354,
+      "public_export_change": null
+    },
+    "discovery_harness/ontology_asset_models.json": {
+      "service": "atlas",
+      "original_sha256": "603fe7a1eafb64d5ad506374ad4c25faa77e9975108a1f4e41470f4bdd9a1709",
+      "public_sha256": "fb92d22784f1428541667a5ef1657326c03a901c5503f40df083ef9892fbf87f",
+      "original_bytes": 1668222,
+      "public_bytes": 1628834,
+      "public_export_change": "Replace personal workspace prefixes in 11 provenance references with project-relative paths; retain filenames, dates, review text and attribution. Referenced review files are not supplied by this snapshot."
+    },
+    "discovery_harness/ontology_definitions.py": {
+      "service": "atlas",
+      "original_sha256": "ef27d6970d6123c2e399094a50e40bc5d693af40beea7ef9ce45417e5e537991",
+      "public_sha256": "ef27d6970d6123c2e399094a50e40bc5d693af40beea7ef9ce45417e5e537991",
+      "original_bytes": 5966,
+      "public_bytes": 5966,
+      "public_export_change": null
+    },
+    "discovery_harness/ontology_domains.json": {
+      "service": "atlas",
+      "original_sha256": "bca1cde75b92eeab4e63a11ef4f3ac27dd183ecfa007173998b4dacd305d33f9",
+      "public_sha256": "bca1cde75b92eeab4e63a11ef4f3ac27dd183ecfa007173998b4dacd305d33f9",
+      "original_bytes": 288860,
+      "public_bytes": 288860,
+      "public_export_change": null
+    },
+    "discovery_harness/ontology_schema.py": {
+      "service": "atlas",
+      "original_sha256": "7a41820b4c887a7d799f384e377c4a345239eb4f3d5173db77edf198d4970456",
+      "public_sha256": "7a41820b4c887a7d799f384e377c4a345239eb4f3d5173db77edf198d4970456",
+      "original_bytes": 12137,
+      "public_bytes": 12137,
+      "public_export_change": null
+    },
+    "discovery_harness/policy.py": {
+      "service": "atlas",
+      "original_sha256": "36273917ddf3d8c2ad772f72db36621b0a5843a1ab2ba249cb36668543c8450a",
+      "public_sha256": "36273917ddf3d8c2ad772f72db36621b0a5843a1ab2ba249cb36668543c8450a",
+      "original_bytes": 8712,
+      "public_bytes": 8712,
+      "public_export_change": null
+    },
+    "discovery_harness/postgres_catalog.py": {
+      "service": "atlas",
+      "original_sha256": "ff5ecef567cd3eea62a5eaeac4d32e05e91b6c0038badbc5568f1b9cd0589390",
+      "public_sha256": "ff5ecef567cd3eea62a5eaeac4d32e05e91b6c0038badbc5568f1b9cd0589390",
+      "original_bytes": 4575,
+      "public_bytes": 4575,
+      "public_export_change": null
+    },
+    "discovery_harness/process_memory.py": {
+      "service": "atlas",
+      "original_sha256": "f62c8faab6bda8b7a63c64332f497ccb887b2dbb1fc9652f0230829751bba272",
+      "public_sha256": "f62c8faab6bda8b7a63c64332f497ccb887b2dbb1fc9652f0230829751bba272",
+      "original_bytes": 1953,
+      "public_bytes": 1953,
+      "public_export_change": null
+    },
+    "discovery_harness/py.typed": {
+      "service": "atlas",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "public_export_change": null
+    },
+    "discovery_harness/reference_years.py": {
+      "service": "atlas",
+      "original_sha256": "3c70f58237880d95e2eafa5d96dc4200e1318027e7ebcbc6c0bdc64ddd210cf4",
+      "public_sha256": "3c70f58237880d95e2eafa5d96dc4200e1318027e7ebcbc6c0bdc64ddd210cf4",
+      "original_bytes": 2369,
+      "public_bytes": 2369,
+      "public_export_change": null
+    },
+    "discovery_harness/region_store.py": {
+      "service": "atlas",
+      "original_sha256": "d97aaffb61467994632180ee995a3ca0a6898edd495c82d23ce6abf422098cdd",
+      "public_sha256": "d97aaffb61467994632180ee995a3ca0a6898edd495c82d23ce6abf422098cdd",
+      "original_bytes": 5874,
+      "public_bytes": 5874,
+      "public_export_change": null
+    },
+    "discovery_harness/related_suggestions.py": {
+      "service": "atlas",
+      "original_sha256": "ff245550fb11fc3ce2d0113e83a74e82b702b020be594d560965d3f2f1bb4b2a",
+      "public_sha256": "ff245550fb11fc3ce2d0113e83a74e82b702b020be594d560965d3f2f1bb4b2a",
+      "original_bytes": 8504,
+      "public_bytes": 8504,
+      "public_export_change": null
+    },
+    "discovery_harness/relevance.py": {
+      "service": "atlas",
+      "original_sha256": "965df75f1603952707c1e3ddcbc552b71cdd7e751552a4f9932c2076023e5dd7",
+      "public_sha256": "965df75f1603952707c1e3ddcbc552b71cdd7e751552a4f9932c2076023e5dd7",
+      "original_bytes": 11738,
+      "public_bytes": 11738,
+      "public_export_change": null
+    },
+    "discovery_harness/resources.py": {
+      "service": "atlas",
+      "original_sha256": "b243d5d79e235eba7514846da519aa17669cdb80008a52793e55971bf21809af",
+      "public_sha256": "b243d5d79e235eba7514846da519aa17669cdb80008a52793e55971bf21809af",
+      "original_bytes": 14662,
+      "public_bytes": 14662,
+      "public_export_change": null
+    },
+    "discovery_harness/response_cache.py": {
+      "service": "atlas",
+      "original_sha256": "3a921d5d41dee4f1dc2d767315d3b45e07df89b5c59921458c8f04c884b98861",
+      "public_sha256": "3a921d5d41dee4f1dc2d767315d3b45e07df89b5c59921458c8f04c884b98861",
+      "original_bytes": 3395,
+      "public_bytes": 3395,
+      "public_export_change": null
+    },
+    "discovery_harness/runtime.py": {
+      "service": "atlas",
+      "original_sha256": "81fc1772a11e8663e4b02be98f2c81936fa886e2bac4ab2ddcf75ace6b53f1dc",
+      "public_sha256": "81fc1772a11e8663e4b02be98f2c81936fa886e2bac4ab2ddcf75ace6b53f1dc",
+      "original_bytes": 27510,
+      "public_bytes": 27510,
+      "public_export_change": null
+    },
+    "discovery_harness/security.py": {
+      "service": "atlas",
+      "original_sha256": "839824edca2c56e9191679fbcc449cb1debc51f8b142bc63e1ec4c720906d44a",
+      "public_sha256": "839824edca2c56e9191679fbcc449cb1debc51f8b142bc63e1ec4c720906d44a",
+      "original_bytes": 8508,
+      "public_bytes": 8508,
+      "public_export_change": null
+    },
+    "discovery_harness/serve_dataieum.py": {
+      "service": "atlas",
+      "original_sha256": "37aa63ed2ff97994f54d5dde0d754b13de8777809f47397d8d2b04addfac5174",
+      "public_sha256": "37aa63ed2ff97994f54d5dde0d754b13de8777809f47397d8d2b04addfac5174",
+      "original_bytes": 1985,
+      "public_bytes": 1985,
+      "public_export_change": null
+    },
+    "discovery_harness/similarity_results.py": {
+      "service": "luna",
+      "original_sha256": "7767cfe11e07a3edbdfde7a47bc07f961c864200d211d64dc7da668bd810d774",
+      "public_sha256": "7767cfe11e07a3edbdfde7a47bc07f961c864200d211d64dc7da668bd810d774",
+      "original_bytes": 15546,
+      "public_bytes": 15546,
+      "public_export_change": null
+    },
+    "discovery_harness/site_evidence.json": {
+      "service": "atlas",
+      "original_sha256": "7a277ad7da919ff114c957daa0426b119d6167e6a8c8b3b4770ca9b8cfa5e5f0",
+      "public_sha256": "7a277ad7da919ff114c957daa0426b119d6167e6a8c8b3b4770ca9b8cfa5e5f0",
+      "original_bytes": 28125,
+      "public_bytes": 28125,
+      "public_export_change": null
+    },
+    "discovery_harness/site_search.py": {
+      "service": "luna",
+      "original_sha256": "c5f7916679d016a40d9b53289097bc83b5df0a072f9abceb6169313f7d73a370",
+      "public_sha256": "c5f7916679d016a40d9b53289097bc83b5df0a072f9abceb6169313f7d73a370",
+      "original_bytes": 53014,
+      "public_bytes": 53014,
+      "public_export_change": null
+    },
+    "discovery_harness/skills/dataset-relevance/SKILL.md": {
+      "service": "atlas",
+      "original_sha256": "26c07abb5f76a9ab450027d40fe810e32cf8eb9259a5d4e972470e7d6f47664b",
+      "public_sha256": "26c07abb5f76a9ab450027d40fe810e32cf8eb9259a5d4e972470e7d6f47664b",
+      "original_bytes": 5168,
+      "public_bytes": 5168,
+      "public_export_change": null
+    },
+    "discovery_harness/skills/vector-site-search/SKILL.md": {
+      "service": "atlas",
+      "original_sha256": "7a2af3d8f790aa9c917759387ee011914ae359587a002530fbc6994e2dd2cbc8",
+      "public_sha256": "7a2af3d8f790aa9c917759387ee011914ae359587a002530fbc6994e2dd2cbc8",
+      "original_bytes": 12800,
+      "public_bytes": 12800,
+      "public_export_change": null
+    },
+    "discovery_harness/smtp_delivery.py": {
+      "service": "atlas",
+      "original_sha256": "c0c2c7c23c1ba189a906166a6248b931655ab14d944c43785fda8fbfb08b9fa9",
+      "public_sha256": "c0c2c7c23c1ba189a906166a6248b931655ab14d944c43785fda8fbfb08b9fa9",
+      "original_bytes": 6254,
+      "public_bytes": 6254,
+      "public_export_change": null
+    },
+    "discovery_harness/streams.py": {
+      "service": "atlas",
+      "original_sha256": "32589f777ae6b0c9dcad25a6261b42e8207eacb054abdbdf0a56f06b83e0ef7c",
+      "public_sha256": "32589f777ae6b0c9dcad25a6261b42e8207eacb054abdbdf0a56f06b83e0ef7c",
+      "original_bytes": 3875,
+      "public_bytes": 3875,
+      "public_export_change": null
+    },
+    "discovery_harness/telemetry.py": {
+      "service": "atlas",
+      "original_sha256": "c27f09ac2b9079b8dbdce8872b99fde46965302d41eb4a70b38810aca4390a0a",
+      "public_sha256": "c27f09ac2b9079b8dbdce8872b99fde46965302d41eb4a70b38810aca4390a0a",
+      "original_bytes": 12255,
+      "public_bytes": 12255,
+      "public_export_change": null
+    },
+    "discovery_harness/title_store.py": {
+      "service": "atlas",
+      "original_sha256": "3102885a971515109413e955266a892734f1e263fcbac3fcfd7765554cd7f474",
+      "public_sha256": "3102885a971515109413e955266a892734f1e263fcbac3fcfd7765554cd7f474",
+      "original_bytes": 5532,
+      "public_bytes": 5532,
+      "public_export_change": null
+    },
+    "discovery_harness/topic_api.py": {
+      "service": "atlas",
+      "original_sha256": "725438e28f28296ede34b0968e2e00873605fadadb3319975d7519d9ba6cad89",
+      "public_sha256": "725438e28f28296ede34b0968e2e00873605fadadb3319975d7519d9ba6cad89",
+      "original_bytes": 5112,
+      "public_bytes": 5112,
+      "public_export_change": null
+    },
+    "discovery_harness/topic_context.py": {
+      "service": "luna",
+      "original_sha256": "272df84167da4db9c2b34eb7bb2d6c00b424c5fa63bc5b9bb972677e97bd7c8e",
+      "public_sha256": "272df84167da4db9c2b34eb7bb2d6c00b424c5fa63bc5b9bb972677e97bd7c8e",
+      "original_bytes": 11332,
+      "public_bytes": 11332,
+      "public_export_change": null
+    },
+    "discovery_harness/topic_explorer.py": {
+      "service": "atlas",
+      "original_sha256": "65a30cfa329cbd887e00601df296548f9bdd6ac660f2e1dd85d9df4a9e480048",
+      "public_sha256": "65a30cfa329cbd887e00601df296548f9bdd6ac660f2e1dd85d9df4a9e480048",
+      "original_bytes": 8752,
+      "public_bytes": 8752,
+      "public_export_change": null
+    },
+    "discovery_harness/topic_graph.py": {
+      "service": "atlas",
+      "original_sha256": "d76296804a3878f8d0f2e029f882f1c2d23acec610a2330a116692feaee75d52",
+      "public_sha256": "d76296804a3878f8d0f2e029f882f1c2d23acec610a2330a116692feaee75d52",
+      "original_bytes": 22405,
+      "public_bytes": 22405,
+      "public_export_change": null
+    },
+    "discovery_harness/topic_retrieval.py": {
+      "service": "atlas",
+      "original_sha256": "d873cb39c8e992ff074f03a5549fa8e125464bcd6dd9aca6d407b8e7a5bf57f9",
+      "public_sha256": "d873cb39c8e992ff074f03a5549fa8e125464bcd6dd9aca6d407b8e7a5bf57f9",
+      "original_bytes": 10074,
+      "public_bytes": 10074,
+      "public_export_change": null
+    },
+    "discovery_harness/vector_index.py": {
+      "service": "vector",
+      "original_sha256": "fb3cd936e50d212d3ebd256fcba3e52f7e8eb73ebd9059ea64f17374d80babc5",
+      "public_sha256": "fb3cd936e50d212d3ebd256fcba3e52f7e8eb73ebd9059ea64f17374d80babc5",
+      "original_bytes": 47222,
+      "public_bytes": 47222,
+      "public_export_change": null
+    },
+    "discovery_harness/vector_judge.py": {
+      "service": "atlas",
+      "original_sha256": "3454b8c31635c6769366a91a6fe32b17e8c331b23c107abe9689818c7f51f9bb",
+      "public_sha256": "3454b8c31635c6769366a91a6fe32b17e8c331b23c107abe9689818c7f51f9bb",
+      "original_bytes": 47041,
+      "public_bytes": 47041,
+      "public_export_change": null
+    },
+    "discovery_harness/vector_server.py": {
+      "service": "vector",
+      "original_sha256": "51f332dc18bcc88d9ab7652253242b16dab7ede5f894687141ce7fc2f22d9d1d",
+      "public_sha256": "51f332dc18bcc88d9ab7652253242b16dab7ede5f894687141ce7fc2f22d9d1d",
+      "original_bytes": 10548,
+      "public_bytes": 10548,
+      "public_export_change": null
+    },
+    "discovery_harness/vector_tools.py": {
+      "service": "luna",
+      "original_sha256": "4fa7f9f17e1f208b47a072a815e78df04746e26410ef60f32ceb3db441e67c72",
+      "public_sha256": "4fa7f9f17e1f208b47a072a815e78df04746e26410ef60f32ceb3db441e67c72",
+      "original_bytes": 23210,
+      "public_bytes": 23210,
+      "public_export_change": null
+    },
+    "discovery_harness/web/catalogue-sidebar.css": {
+      "service": "atlas",
+      "original_sha256": "5643dc2df63a82555c446e286b5bc50f13104d6e173f012000cd2c79338b6c2c",
+      "public_sha256": "5643dc2df63a82555c446e286b5bc50f13104d6e173f012000cd2c79338b6c2c",
+      "original_bytes": 800,
+      "public_bytes": 800,
+      "public_export_change": null
+    },
+    "discovery_harness/web/catalogue-sidebar.js": {
+      "service": "atlas",
+      "original_sha256": "36861f0bca3f319e8f5203499633e861e72315ffdd14b539ca564e13b7d3c57f",
+      "public_sha256": "36861f0bca3f319e8f5203499633e861e72315ffdd14b539ca564e13b7d3c57f",
+      "original_bytes": 1282,
+      "public_bytes": 1282,
+      "public_export_change": null
+    },
+    "discovery_harness/web/chat.css": {
+      "service": "atlas",
+      "original_sha256": "e232267de4404becbfa9093e959d09ca800d391bdf012d7dc498b4bacca2ee66",
+      "public_sha256": "e232267de4404becbfa9093e959d09ca800d391bdf012d7dc498b4bacca2ee66",
+      "original_bytes": 24133,
+      "public_bytes": 24133,
+      "public_export_change": null
+    },
+    "discovery_harness/web/chat.html": {
+      "service": "atlas",
+      "original_sha256": "f79efd0693344b8c471d226ad8228ab71d55762c4e1e448e4781c24348776e3c",
+      "public_sha256": "f79efd0693344b8c471d226ad8228ab71d55762c4e1e448e4781c24348776e3c",
+      "original_bytes": 8327,
+      "public_bytes": 8327,
+      "public_export_change": null
+    },
+    "discovery_harness/web/chat.js": {
+      "service": "atlas",
+      "original_sha256": "9b3230d01e69a80f171de757f600cd1fdbdc0d09d7801b8b61ccd347fd7f0a95",
+      "public_sha256": "9b3230d01e69a80f171de757f600cd1fdbdc0d09d7801b8b61ccd347fd7f0a95",
+      "original_bytes": 45910,
+      "public_bytes": 45910,
+      "public_export_change": null
+    },
+    "discovery_harness/web/concept-map.css": {
+      "service": "atlas",
+      "original_sha256": "fcb8e422b64de6adf2ed563a79915a364a520e2700e2701a268b6de64b1a28c7",
+      "public_sha256": "fcb8e422b64de6adf2ed563a79915a364a520e2700e2701a268b6de64b1a28c7",
+      "original_bytes": 1982,
+      "public_bytes": 1982,
+      "public_export_change": null
+    },
+    "discovery_harness/web/concept-map.js": {
+      "service": "atlas",
+      "original_sha256": "f0d085b43790eb4c42763b44cdf71092af60029c6a3d30118c3cb21b9d08cbf5",
+      "public_sha256": "f0d085b43790eb4c42763b44cdf71092af60029c6a3d30118c3cb21b9d08cbf5",
+      "original_bytes": 3043,
+      "public_bytes": 3043,
+      "public_export_change": null
+    },
+    "discovery_harness/web/cooperation-mail.css": {
+      "service": "atlas",
+      "original_sha256": "5a13121adcb5f7929a00d77a86e129054734227644023abd7c273bf3fc1bbf87",
+      "public_sha256": "5a13121adcb5f7929a00d77a86e129054734227644023abd7c273bf3fc1bbf87",
+      "original_bytes": 14913,
+      "public_bytes": 14913,
+      "public_export_change": null
+    },
+    "discovery_harness/web/cooperation-mail.js": {
+      "service": "atlas",
+      "original_sha256": "1b2efeaf03464819282f454f165d1eb97823ce9e4499933f4a107ea7d2856d22",
+      "public_sha256": "1b2efeaf03464819282f454f165d1eb97823ce9e4499933f4a107ea7d2856d22",
+      "original_bytes": 32785,
+      "public_bytes": 32785,
+      "public_export_change": null
+    },
+    "discovery_harness/web/dataset-intros.css": {
+      "service": "atlas",
+      "original_sha256": "993408863d6cc8cf8fbaaa08ad29ebe2ebd0ddac0b442e70651a1814ab66a8c2",
+      "public_sha256": "993408863d6cc8cf8fbaaa08ad29ebe2ebd0ddac0b442e70651a1814ab66a8c2",
+      "original_bytes": 1026,
+      "public_bytes": 1026,
+      "public_export_change": null
+    },
+    "discovery_harness/web/dataset-intros.js": {
+      "service": "atlas",
+      "original_sha256": "c555a84121d6ebabebac242d9e46bb45531236dcd25cb220f3a06b993f27852c",
+      "public_sha256": "c555a84121d6ebabebac242d9e46bb45531236dcd25cb220f3a06b993f27852c",
+      "original_bytes": 7339,
+      "public_bytes": 7339,
+      "public_export_change": null
+    },
+    "discovery_harness/web/favicon-32.png": {
+      "service": "atlas",
+      "original_sha256": "d7c7adcfd62d474931e6cb3f845c4833be63b4b49f916f719f4aa42001a03dd5",
+      "public_sha256": "d7c7adcfd62d474931e6cb3f845c4833be63b4b49f916f719f4aa42001a03dd5",
+      "original_bytes": 774,
+      "public_bytes": 774,
+      "public_export_change": null
+    },
+    "discovery_harness/web/favicon.ico": {
+      "service": "atlas",
+      "original_sha256": "94d96fb40999a9e5445eb3ebe1d84341af6d22f701f46e55b9a11df6318e041d",
+      "public_sha256": "94d96fb40999a9e5445eb3ebe1d84341af6d22f701f46e55b9a11df6318e041d",
+      "original_bytes": 2280,
+      "public_bytes": 2280,
+      "public_export_change": null
+    },
+    "discovery_harness/web/hierarchy-map.css": {
+      "service": "atlas",
+      "original_sha256": "c2175ceaf9efccd6029b74f0b2e8e9a3bea77dd96bce7cf438b073d022ea24b6",
+      "public_sha256": "c2175ceaf9efccd6029b74f0b2e8e9a3bea77dd96bce7cf438b073d022ea24b6",
+      "original_bytes": 1775,
+      "public_bytes": 1775,
+      "public_export_change": null
+    },
+    "discovery_harness/web/hierarchy-map.js": {
+      "service": "atlas",
+      "original_sha256": "c81f638b36a5bf84933d92f6af578b7eb64a5918c9eb56275c2b21f7f8d7c0db",
+      "public_sha256": "c81f638b36a5bf84933d92f6af578b7eb64a5918c9eb56275c2b21f7f8d7c0db",
+      "original_bytes": 3445,
+      "public_bytes": 3445,
+      "public_export_change": null
+    },
+    "discovery_harness/web/i18n-data.js": {
+      "service": "atlas",
+      "original_sha256": "27c1f9fb3c0e767213a369ef26a6f2c807a63fe2b08f9dc2d99b38f2fa71c975",
+      "public_sha256": "27c1f9fb3c0e767213a369ef26a6f2c807a63fe2b08f9dc2d99b38f2fa71c975",
+      "original_bytes": 174253,
+      "public_bytes": 174253,
+      "public_export_change": null
+    },
+    "discovery_harness/web/i18n.css": {
+      "service": "atlas",
+      "original_sha256": "d1fbbb4090db31aa7d5235d0ee565e7bedb76fae147003566a279a85f75a8805",
+      "public_sha256": "d1fbbb4090db31aa7d5235d0ee565e7bedb76fae147003566a279a85f75a8805",
+      "original_bytes": 1634,
+      "public_bytes": 1634,
+      "public_export_change": null
+    },
+    "discovery_harness/web/i18n.js": {
+      "service": "atlas",
+      "original_sha256": "c8439d19f847b758a8554b1dec5d271d6b3761006e095d96691d752d24a11691",
+      "public_sha256": "c8439d19f847b758a8554b1dec5d271d6b3761006e095d96691d752d24a11691",
+      "original_bytes": 5981,
+      "public_bytes": 5981,
+      "public_export_change": null
+    },
+    "discovery_harness/web/ontology-explorer.js": {
+      "service": "atlas",
+      "original_sha256": "afff31fe085e99ff42d7372bd1e8e2c13801f669b13257e0bb1e029b480ec991",
+      "public_sha256": "afff31fe085e99ff42d7372bd1e8e2c13801f669b13257e0bb1e029b480ec991",
+      "original_bytes": 39081,
+      "public_bytes": 39081,
+      "public_export_change": null
+    },
+    "discovery_harness/web/ontology-view.js": {
+      "service": "atlas",
+      "original_sha256": "912e5b3e4bc5ac866d1638bb0dff332e8fef1ef4a7aa3e6ecd636cc3c4db5fb3",
+      "public_sha256": "912e5b3e4bc5ac866d1638bb0dff332e8fef1ef4a7aa3e6ecd636cc3c4db5fb3",
+      "original_bytes": 10925,
+      "public_bytes": 10925,
+      "public_export_change": null
+    },
+    "discovery_harness/web/ontology.css": {
+      "service": "atlas",
+      "original_sha256": "4a3c01c8f20ea4f6dfd75cc5a4a5ddfe89d483f9ee04447699926ac93791c3d4",
+      "public_sha256": "4a3c01c8f20ea4f6dfd75cc5a4a5ddfe89d483f9ee04447699926ac93791c3d4",
+      "original_bytes": 15180,
+      "public_bytes": 15180,
+      "public_export_change": null
+    },
+    "discovery_harness/web/ontology.html": {
+      "service": "atlas",
+      "original_sha256": "9b07bd924dd6bfb4e1011226e89c43b1aa42f04662d64eb83ace25a0e66a656b",
+      "public_sha256": "9b07bd924dd6bfb4e1011226e89c43b1aa42f04662d64eb83ace25a0e66a656b",
+      "original_bytes": 8285,
+      "public_bytes": 8285,
+      "public_export_change": null
+    },
+    "discovery_harness/web/search-progress.js": {
+      "service": "atlas",
+      "original_sha256": "cb9fce87cc4642e3d72163beeab62ab93cea5202220ee9e3af147d51abad64b2",
+      "public_sha256": "cb9fce87cc4642e3d72163beeab62ab93cea5202220ee9e3af147d51abad64b2",
+      "original_bytes": 1940,
+      "public_bytes": 1940,
+      "public_export_change": null
+    },
+    "discovery_harness/web/site-results.js": {
+      "service": "atlas",
+      "original_sha256": "cc26dfe14d1abb49adf83224a68198ea808d8575d6d989bb25703423e7e72b62",
+      "public_sha256": "cc26dfe14d1abb49adf83224a68198ea808d8575d6d989bb25703423e7e72b62",
+      "original_bytes": 20384,
+      "public_bytes": 20384,
+      "public_export_change": null
+    },
+    "discovery_harness/web/topic-graph.css": {
+      "service": "atlas",
+      "original_sha256": "27c83939f165d3dbef01516fe6e4e46c386cc2069ac3680d8145e8ee027a1ec6",
+      "public_sha256": "27c83939f165d3dbef01516fe6e4e46c386cc2069ac3680d8145e8ee027a1ec6",
+      "original_bytes": 10311,
+      "public_bytes": 10311,
+      "public_export_change": null
+    },
+    "discovery_harness/web/topic-graph.js": {
+      "service": "atlas",
+      "original_sha256": "3c5053af9403c390323349c7dc21ae99d2b48e6d86e94b16e2a0cd1982a3fa4f",
+      "public_sha256": "3c5053af9403c390323349c7dc21ae99d2b48e6d86e94b16e2a0cd1982a3fa4f",
+      "original_bytes": 30962,
+      "public_bytes": 30962,
+      "public_export_change": null
+    },
+    "embedding_batch.py": {
+      "service": "atlas",
+      "original_sha256": "d8234ba322aa365290767f3094031a9d837113b19701cef4272b6c4407b6f87b",
+      "public_sha256": "d8234ba322aa365290767f3094031a9d837113b19701cef4272b6c4407b6f87b",
+      "original_bytes": 23847,
+      "public_bytes": 23847,
+      "public_export_change": null
+    },
+    "experiments/__init__.py": {
+      "service": "atlas",
+      "original_sha256": "a84fa1398856bf7dafd1ba31a7a511516a6ffc181c415cc00edd7af70c2bbab2",
+      "public_sha256": "a84fa1398856bf7dafd1ba31a7a511516a6ffc181c415cc00edd7af70c2bbab2",
+      "original_bytes": 67,
+      "public_bytes": 67,
+      "public_export_change": null
+    },
+    "experiments/luna_discovery.py": {
+      "service": "luna",
+      "original_sha256": "dc6d1855ba3640278eae9504761e4f89e9d309867c7ce8d53c2f19d99c1260c9",
+      "public_sha256": "dc6d1855ba3640278eae9504761e4f89e9d309867c7ce8d53c2f19d99c1260c9",
+      "original_bytes": 56137,
+      "public_bytes": 56137,
+      "public_export_change": null
+    },
+    "experiments/site_workflow.py": {
+      "service": "luna",
+      "original_sha256": "527718382b2a9a72460db60d840f097e96d7cef2831fa931ccc29bc9f00b1bea",
+      "public_sha256": "527718382b2a9a72460db60d840f097e96d7cef2831fa931ccc29bc9f00b1bea",
+      "original_bytes": 15767,
+      "public_bytes": 15767,
+      "public_export_change": null
+    },
+    "frontend/.vite/manifest.json": {
+      "service": "atlas",
+      "original_sha256": "a924f7c35db6d4038c25fa77977303c7df710ac47cf459d9ed01009862162b75",
+      "public_sha256": "a924f7c35db6d4038c25fa77977303c7df710ac47cf459d9ed01009862162b75",
+      "original_bytes": 185,
+      "public_bytes": 185,
+      "public_export_change": null
+    },
+    "frontend/assets/index-BMNkiRg3.js": {
+      "service": "atlas",
+      "original_sha256": "7e4156f570b6a66c76595ae21e281c6b04908ee626e4264831592ea767f45498",
+      "public_sha256": "7e4156f570b6a66c76595ae21e281c6b04908ee626e4264831592ea767f45498",
+      "original_bytes": 492578,
+      "public_bytes": 492578,
+      "public_export_change": null
+    },
+    "frontend/assets/index-BeGhtQyM.css": {
+      "service": "atlas",
+      "original_sha256": "7697c124930e6aaa41bc1e0c446f7baf78f0b4dfe751e135b0c12a089aa03be3",
+      "public_sha256": "7697c124930e6aaa41bc1e0c446f7baf78f0b4dfe751e135b0c12a089aa03be3",
+      "original_bytes": 41959,
+      "public_bytes": 41959,
+      "public_export_change": null
+    },
+    "frontend/index.html": {
+      "service": "atlas",
+      "original_sha256": "7dfdc294eea4db523fd67a86a862f1ec24b8490986c46b6a3cadbbf3c7456f44",
+      "public_sha256": "7dfdc294eea4db523fd67a86a862f1ec24b8490986c46b6a3cadbbf3c7456f44",
+      "original_bytes": 480,
+      "public_bytes": 480,
+      "public_export_change": null
+    },
+    "operations/backup_export.py": {
+      "service": "atlas",
+      "original_sha256": "f80ae55a449dc9c0cf06aa95def1e925472610e6774112ce06fa5a6a7600ad5a",
+      "public_sha256": "f80ae55a449dc9c0cf06aa95def1e925472610e6774112ce06fa5a6a7600ad5a",
+      "original_bytes": 6820,
+      "public_bytes": 6820,
+      "public_export_change": null
+    },
+    "operations/backup_mac.py": {
+      "service": "atlas",
+      "original_sha256": "d2c6fbfa6d23ef2f368f0bf1b50c31767e780e791b11d42a543b50edf0012c94",
+      "public_sha256": "bc6e4144d3591fd6b382cf646b34d4f0c0c5f55fb12c4792202aff2e018b52a0",
+      "original_bytes": 4165,
+      "public_bytes": 4544,
+      "public_export_change": "Replace private SSH target and identity path with required DATAIEUM_SSH_TARGET and DATAIEUM_SSH_KEY environment variables; retain remote-operation logic."
+    },
+    "operations/backup_restore.py": {
+      "service": "atlas",
+      "original_sha256": "b2a491c470cd00171453bf1a7cf33115651a016c8352ace856f54c687180c14b",
+      "public_sha256": "b2a491c470cd00171453bf1a7cf33115651a016c8352ace856f54c687180c14b",
+      "original_bytes": 5885,
+      "public_bytes": 5885,
+      "public_export_change": null
+    },
+    "operations/ci_deploy.py": {
+      "service": "atlas",
+      "original_sha256": "b565db2ca2bb171332c25ea73d954201113206d8921023853a97d1f8beba571a",
+      "public_sha256": "b565db2ca2bb171332c25ea73d954201113206d8921023853a97d1f8beba571a",
+      "original_bytes": 12863,
+      "public_bytes": 12863,
+      "public_export_change": null
+    },
+    "operations/ci_release.py": {
+      "service": "atlas",
+      "original_sha256": "d507e644b8f1dc82ec347831ee3a79651547774cc487cbafb0e5466079c5823c",
+      "public_sha256": "d507e644b8f1dc82ec347831ee3a79651547774cc487cbafb0e5466079c5823c",
+      "original_bytes": 2571,
+      "public_bytes": 2571,
+      "public_export_change": null
+    },
+    "operations/cleanup.py": {
+      "service": "atlas",
+      "original_sha256": "dcf359da0b8b55dcac5ff9f7e494836ff46eb0915283ef580840b9e6f53e059f",
+      "public_sha256": "dcf359da0b8b55dcac5ff9f7e494836ff46eb0915283ef580840b9e6f53e059f",
+      "original_bytes": 12979,
+      "public_bytes": 12979,
+      "public_export_change": null
+    },
+    "operations/deploy.py": {
+      "service": "atlas",
+      "original_sha256": "885fcb845b4f572f762053cace08b3b9b82823f943472e640d3b9f42ee54868c",
+      "public_sha256": "885fcb845b4f572f762053cace08b3b9b82823f943472e640d3b9f42ee54868c",
+      "original_bytes": 21541,
+      "public_bytes": 21541,
+      "public_export_change": null
+    },
+    "operations/index_lookup.py": {
+      "service": "atlas",
+      "original_sha256": "4b4172631efca573a00f681fc5a971b3b19e62ad291937d65144f1fb804e88fe",
+      "public_sha256": "4b4172631efca573a00f681fc5a971b3b19e62ad291937d65144f1fb804e88fe",
+      "original_bytes": 4248,
+      "public_bytes": 4248,
+      "public_export_change": null
+    },
+    "operations/postgres.sql": {
+      "service": "atlas",
+      "original_sha256": "db4396564a91d662075ccbf4800fdb6f12b926bf0ea85f69c415d421d03ff429",
+      "public_sha256": "db4396564a91d662075ccbf4800fdb6f12b926bf0ea85f69c415d421d03ff429",
+      "original_bytes": 1977,
+      "public_bytes": 1977,
+      "public_export_change": null
+    },
+    "operations/postgres_migrate.py": {
+      "service": "atlas",
+      "original_sha256": "61691060f1d1cc80209edca8e4a3d42621acf40cd7402861b444c1475e2454d6",
+      "public_sha256": "61691060f1d1cc80209edca8e4a3d42621acf40cd7402861b444c1475e2454d6",
+      "original_bytes": 9706,
+      "public_bytes": 9706,
+      "public_export_change": null
+    },
+    "operations/postgres_publish.py": {
+      "service": "atlas",
+      "original_sha256": "fba607ba3b6e54156bdd888ca357c0f449c08a3c9a9b9358c725e8d77e55ec15",
+      "public_sha256": "fba607ba3b6e54156bdd888ca357c0f449c08a3c9a9b9358c725e8d77e55ec15",
+      "original_bytes": 5559,
+      "public_bytes": 5559,
+      "public_export_change": null
+    },
+    "operations/postgres_setup.py": {
+      "service": "atlas",
+      "original_sha256": "af24ea40dbb28d9404c6bb59c5714f519e95eec816569654f4bcc3fa69f887af",
+      "public_sha256": "af24ea40dbb28d9404c6bb59c5714f519e95eec816569654f4bcc3fa69f887af",
+      "original_bytes": 3702,
+      "public_bytes": 3702,
+      "public_export_change": null
+    },
+    "operations/reconcile_topic_manifest.py": {
+      "service": "atlas",
+      "original_sha256": "9dadd2a1539ec5b95d551edfe2bd10590aadf743d64dc02542b7e6ebc1c48805",
+      "public_sha256": "9dadd2a1539ec5b95d551edfe2bd10590aadf743d64dc02542b7e6ebc1c48805",
+      "original_bytes": 3113,
+      "public_bytes": 3113,
+      "public_export_change": null
+    },
+    "operations/refresh.py": {
+      "service": "atlas",
+      "original_sha256": "9e85e7cb6f10357ae47fcdfec6aa1e3d7e4f8fd84d9b54cf4774f77933d536ad",
+      "public_sha256": "9e85e7cb6f10357ae47fcdfec6aa1e3d7e4f8fd84d9b54cf4774f77933d536ad",
+      "original_bytes": 6927,
+      "public_bytes": 6927,
+      "public_export_change": null
+    },
+    "operations/refresh_batch.py": {
+      "service": "atlas",
+      "original_sha256": "e22ec896c36d9228aaa2851166b99cdc100ef35d85b21178fa9c59976278c066",
+      "public_sha256": "e22ec896c36d9228aaa2851166b99cdc100ef35d85b21178fa9c59976278c066",
+      "original_bytes": 11090,
+      "public_bytes": 11090,
+      "public_export_change": null
+    },
+    "operations/refresh_collect.py": {
+      "service": "atlas",
+      "original_sha256": "29f1df325e3e9d8b430411e65ab264d1daed1a22e55528698a2cac2279d0baa9",
+      "public_sha256": "29f1df325e3e9d8b430411e65ab264d1daed1a22e55528698a2cac2279d0baa9",
+      "original_bytes": 12902,
+      "public_bytes": 12902,
+      "public_export_change": null
+    },
+    "operations/refresh_http.py": {
+      "service": "atlas",
+      "original_sha256": "1d60481f5e6a95f64963a9d46b124c4ae6f82efec7606907f9b36aa78f904d48",
+      "public_sha256": "1d60481f5e6a95f64963a9d46b124c4ae6f82efec7606907f9b36aa78f904d48",
+      "original_bytes": 9598,
+      "public_bytes": 9598,
+      "public_export_change": null
+    },
+    "operations/refresh_maintenance.py": {
+      "service": "atlas",
+      "original_sha256": "4a9cb086671842d0f74483a6e381708697e1b168a20b52774157d1a02c0f323a",
+      "public_sha256": "4a9cb086671842d0f74483a6e381708697e1b168a20b52774157d1a02c0f323a",
+      "original_bytes": 13827,
+      "public_bytes": 13827,
+      "public_export_change": null
+    },
+    "operations/refresh_publish_data.py": {
+      "service": "atlas",
+      "original_sha256": "aaec15142e34fa28dc10b91c1898ea61559a95a148fa8a6681d8501e3ef3e03e",
+      "public_sha256": "aaec15142e34fa28dc10b91c1898ea61559a95a148fa8a6681d8501e3ef3e03e",
+      "original_bytes": 38187,
+      "public_bytes": 38187,
+      "public_export_change": null
+    },
+    "operations/refresh_quality.py": {
+      "service": "atlas",
+      "original_sha256": "9f2b7c31dd6beab1b853e1bdab94a2b9a0015fc818eb52d5cf5e1fbd8d3524df",
+      "public_sha256": "9f2b7c31dd6beab1b853e1bdab94a2b9a0015fc818eb52d5cf5e1fbd8d3524df",
+      "original_bytes": 28315,
+      "public_bytes": 28315,
+      "public_export_change": null
+    },
+    "operations/refresh_run.py": {
+      "service": "atlas",
+      "original_sha256": "987a3c606ed19cc4e9ee44e24074377892c83fbdb4aab03826b7ee2d8023f4c8",
+      "public_sha256": "987a3c606ed19cc4e9ee44e24074377892c83fbdb4aab03826b7ee2d8023f4c8",
+      "original_bytes": 6151,
+      "public_bytes": 6151,
+      "public_export_change": null
+    },
+    "operations/refresh_state.py": {
+      "service": "atlas",
+      "original_sha256": "b9a7dfa70068ad621ceb5ae1bc55defada3d472716dbaa4950e65e4e5c2f640e",
+      "public_sha256": "b9a7dfa70068ad621ceb5ae1bc55defada3d472716dbaa4950e65e4e5c2f640e",
+      "original_bytes": 8334,
+      "public_bytes": 8334,
+      "public_export_change": null
+    },
+    "operations/release.py": {
+      "service": "atlas",
+      "original_sha256": "e29638aa036d663d549112daefd7bb446525c6aa12323fabe9cf676422e93d9a",
+      "public_sha256": "d87d042484c8c5e64f9e5fc5fb53466fd26b13b77535b6d683965c04b8be491d",
+      "original_bytes": 5857,
+      "public_bytes": 6249,
+      "public_export_change": "Replace private SSH target and identity path with required DATAIEUM_SSH_TARGET and DATAIEUM_SSH_KEY environment variables; retain remote-operation logic."
+    },
+    "operations/test_cleanup.py": {
+      "service": "atlas",
+      "original_sha256": "1b9f8247c0bd0055059d7319ce6d825df778456085fb0cc473454747c2f67621",
+      "public_sha256": "1b9f8247c0bd0055059d7319ce6d825df778456085fb0cc473454747c2f67621",
+      "original_bytes": 4442,
+      "public_bytes": 4442,
+      "public_export_change": null
+    },
+    "registry.py": {
+      "service": "atlas",
+      "original_sha256": "717d9fa2a1bcc750623ac15f87dcaa21d83b2020054f542d4bab02bc8593265e",
+      "public_sha256": "717d9fa2a1bcc750623ac15f87dcaa21d83b2020054f542d4bab02bc8593265e",
+      "original_bytes": 222797,
+      "public_bytes": 222797,
+      "public_export_change": null
+    },
+    "requirements.txt": {
+      "service": "atlas",
+      "original_sha256": "4be66458c5862c4ffa954be38fb4ca29d14c57b30c37b65afafa6328b0848f62",
+      "public_sha256": "4be66458c5862c4ffa954be38fb4ca29d14c57b30c37b65afafa6328b0848f62",
+      "original_bytes": 142,
+      "public_bytes": 142,
+      "public_export_change": null
+    }
+  }
+}
